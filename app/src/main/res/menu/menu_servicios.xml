@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id = "@+id/nav_carrito"
+            android:title = "Carrito"
+        />
+        <item
+            android:id = "@+id/nav_flores"
+            android:title = "Flores"
+        />
+        <item
+            android:id = "@+id/nav_vestuario"
+            android:title = "Vestuario"
+        />
+        <item
+            android:id = "@+id/nav_Tartas"
+            android:title = "Tartas"
+        />
+        <item
+            android:id = "@+id/nav_catering"
+            android:title = "Cáterin"
+        />
+        <item
+            android:id = "@+id/nav_lugares"
+            android:title = "Lugares"
+        />
+        <item
+            android:id = "@+id/nav_decoracion"
+            android:title = "Decoración"
+        />
+        <item
+            android:id = "@+id/nav_invitaciones"
+            android:title = "Invitaciones"
+        />
+        <item
+            android:id = "@+id/nav_musica"
+            android:title = "Música"
+        />
+        <item
+            android:id = "@+id/nav_Stand"
+            android:title = "Stands"
+        />
+        <item
+            android:id = "@+id/nav_belleza"
+            android:title = "Belleza"
+        />
+        <item
+            android:id = "@+id/nav_fotografo"
+            android:title = "Fotógrafos"
+        />
+        <item
+            android:id = "@+id/nav_Regalos"
+            android:title = "Regalos"
+        />
+        <item
+            android:id = "@+id/nav_contacto"
+            android:title = "Contacto"
+        />
+
+    </group>
+</menu>

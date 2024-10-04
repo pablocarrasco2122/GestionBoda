@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Boda Perfecta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">259314331587-9tbnkup6gbh3k4ercrf1uq1q7606upju.apps.googleusercontent.com</string>
+
+
+    <string name="facebook_app_id">979353716902783</string>
+    <string name="fb_login_protocol_scheme">fb979353716902783</string>
+
+
+
+
+
+</resources>

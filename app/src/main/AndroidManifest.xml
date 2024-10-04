@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplicacion1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BarraNavegacion">
+
+        <activity
+            android:name=".Servicios.CarritoActivity"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity_APP" />
+        <activity android:name=".RegistroActivity" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Actividades específicas de la aplicación -->
+        <activity android:name=".Invitados.AddActivity" />
+
+
+
+
+
+
+
+
+        <!-- Actividades de servicios -->
+        <activity android:name=".Servicios.Lista.BellezaActivity" />
+        <activity android:name=".Servicios.Lista.CaterinActivity" />
+        <activity android:name=".Servicios.Lista.ContactActivity" />
+        <activity android:name=".Servicios.Lista.DecoracionActivity" />
+        <activity android:name=".Servicios.Lista.FloresActivity" />
+        <activity android:name=".Servicios.Lista.FotografosActivity" />
+        <activity android:name=".Servicios.Lista.InvitacionesActivity" />
+        <activity android:name=".Servicios.Lista.LugaresActivity" />
+        <activity android:name=".Servicios.Lista.MusicaActivity" />
+        <activity android:name=".Servicios.Lista.RegalosActivity" />
+        <activity android:name=".Servicios.Lista.StandsActivity" />
+        <activity android:name=".Servicios.Lista.TartasActivity" />
+        <activity android:name=".Servicios.Lista.VestuarioActivity" />
+
+    </application>
+
+</manifest>
+

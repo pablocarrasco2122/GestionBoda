@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mesas_array">
+        <item>Mesa 1</item>
+        <item>Mesa 2</item>
+        <item>Mesa 3</item>
+        <item>Mesa 4</item>
+        <item>Mesa 5</item>
+        <item>Mesa 6</item>
+        <item>Mesa 7</item>
+        <item>Mesa 8</item>
+        <item>Mesa 9</item>
+        <item>Mesa 10</item>
+    </string-array>
+    <string name="user_registered">Usuario registrado correctamente</string>
+    <string name="error_saving_data">Error al guardar los datos</string>
+    <string name="error_registering_user">Error al registrar el usuario</string>
+
+</resources>

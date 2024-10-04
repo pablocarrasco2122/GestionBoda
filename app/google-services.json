@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "259314331587",
+    "firebase_url": "https://boda-perfecta-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "boda-perfecta",
+    "storage_bucket": "boda-perfecta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259314331587:android:cabe965e4c41d100841776",
+        "android_client_info": {
+          "package_name": "com.example.aplicacion1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259314331587-imvnkeg4h6husfh5bro02dg0rs5rqpp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplicacion1",
+            "certificate_hash": "d391dc4f0e38c78b26db3d98dec251e0a361c4a4"
+          }
+        },
+        {
+          "client_id": "259314331587-9tbnkup6gbh3k4ercrf1uq1q7606upju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMntrsMBiEwTHWVX8FVAgMMXArLfuhyzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259314331587-9tbnkup6gbh3k4ercrf1uq1q7606upju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

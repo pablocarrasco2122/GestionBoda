@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Servicios.CarritoActivity">
+
+    <RelativeLayout
+        android:id="@+id/id1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/orange"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/precio_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="6dp"
+            android:text="Total: 000"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/carrito_lista"
+        android:layout_width="match_parent"
+        android:layout_height="654dp"
+        android:layout_below="@+id/id1"
+        android:layout_marginTop="-2dp" />
+
+    <Button
+        android:id="@+id/bttnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/orange"
+        android:text="VOLVER"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</RelativeLayout>

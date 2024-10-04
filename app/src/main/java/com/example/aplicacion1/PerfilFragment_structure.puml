@@ -1,0 +1,139 @@
+@startuml
+
+/' diagram meta data start
+config=StructureConfiguration;
+{
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": false,
+    "cutInterfaceStructures": false,
+    "cutDataStructures": false,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 6,
+    "backwardDepth": 6,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showClassGenericTypes": true,
+    "showMethods": true,
+    "showMethodParameterNames": true,
+    "showMethodParameterTypes": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 2,
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "com.example.aplicacion1.PerfilFragment",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_1322970774 { 
+   	label=example
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_1938363266 { 
+   	label=aplicacion1
+	labeljust=l
+	fillcolor="#d8d8d8"
+	style=filled
+   
+   PerfilFragment1915344751[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)PerfilFragment</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   btnCerrarSesion: FloatingActionButton [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   btnPhoto: FloatingActionButton [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbBelleza: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbCaterin: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbDecoracion: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbDulces: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbFlores: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbFotografo: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbInvitaciones: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbInvitados: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbLugar: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbMusica: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbTarta: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbTatuajes: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   cbVestuario: CheckBox [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   etDescripcion: EditText [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   imageUrl: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   imageView: ImageView [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >- cerrarSesion()</TD></TR>
+<TR><TD ALIGN="LEFT" >- guardarDatosEnFirestore()</TD></TR>
+<TR><TD ALIGN="LEFT" >+ newInstance(param1: String, param2: String): PerfilFragment</TD></TR>
+<TR><TD ALIGN="LEFT" >+ onActivityResult(requestCode: int, resultCode: int, data: Intent)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ onCreateView(inflater: LayoutInflater, container: ViewGroup, savedInstanceState: Bundle): View</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+} 
+
+'edges    
+
+    
+}
+@enduml

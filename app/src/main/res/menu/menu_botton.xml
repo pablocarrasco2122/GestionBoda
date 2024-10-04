@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_perfil"
+        android:icon="@drawable/iconperfil"
+        android:title="Perfil" />
+
+    <item
+        android:id="@+id/page_servicios"
+        android:icon="@drawable/iconservicios"
+        android:title="Servicios" />
+
+    <item
+        android:id="@+id/page_invitados"
+        android:icon="@drawable/iconinvitados"
+        android:title="Invitados" />
+
+    <item
+        android:id="@+id/page_inspiracion"
+        android:icon="@drawable/iconinspiracion"
+        android:title="Inspiración" />
+
+    <item
+        android:id="@+id/page_notas"
+        android:icon="@drawable/iconnotas"
+        android:title="Notas" />
+</menu>
